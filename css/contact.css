@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-right: 0 !important;
+}
+
+.contact-page-container {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .card-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+.col-md-5 {
+    max-width: 500px !important;
+    min-width: 400px;
+}
+
+.weblinks-container {
+    text-align: center;
+}
+
+.weblink-logo {
+    margin: 0 20px;
+}
+
+.weblink-logo-img {
+    width: 50px;
+}
+
+/* Mobile screens and down */
+@media (max-width: 576px) {
+    .col-md-5 {
+        min-width: 0;
+    }
+
+    .card-container {
+        padding-right: 0 !important;
+    }
+}

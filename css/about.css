@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.me-span {
+    color: #be020b;
+}
+
+.sub-heading {
+    font-weight: 300;
+}
+
+.secondary-heading {
+    color: #616161;
+}
+
+.btn-danger {
+    background-color: #be020b !important;
+    border-color:#be020b !important;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+.friends
+{
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.dot1
+{
+    color: red;
+}
+.dot2
+{
+    color: yellow;
+}
+.dot3
+{
+    color: deepskyblue;
+}
+.dot4
+{
+    color: red;
+}
+.dot5
+{
+    color: yellow;
+}
+.dot6
+{
+    color: deepskyblue;
+}
+
+.progress-bar {
+    background-color: #909090 !important;
+}
+
+.fa-download {
+    background-color: transparent !important;
+}
+
+/* Radial progress bar */
+.progress-radial {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    transform: rotate(-90deg) rotateX(180deg);
+}
+  
+.progress-radial circle {
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1.5s ease;
+    stroke: #be020b;
+    stroke-width: 9px;
+}
+
+.progress-radial .bar {
+    stroke: #d2d2d2;
+}
+
+.progress-container {
+    position: relative;
+}
+
+.progress-container:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 35px;
+    transform: translate(-50%, -50%);
+    content: attr(data-percent) "%";
+}
+
+.secondary-text {
+    color: #a8a8a8;
+}
+
+.container-divider {
+    border-bottom: 3px solid rgb(65, 65, 65);
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.social-description {
+    font-weight: 300;
+}
+
+.weblinks-container {
+    text-align: center;
+}
+
+.weblink-logo {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.weblink-logo-img {
+    width: 40px;
+}
+
+/* Breakpoints */
+
+/* Mobile screens and down */
+@media (max-width: 576px) { 
+    p {
+        text-align: justify;
+    }
+
+    .progress-container:after {
+        font-size: 24px;
+    }
+
+    .resume-download {
+        text-align: center;
+    }
+
+    .radial-container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+/* Tablet screens and up */
+@media (min-width: 768px) {  
+    .company-contanier {
+        position: relative;
+    }
+    
+    .company-name {
+        position: absolute;
+        position: absolute;
+        top: 50%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+    }
+}

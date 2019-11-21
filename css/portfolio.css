@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+* { 
+    margin: 0px; 
+	padding: 0px; 
+	/* background-color: #0a0a0a; */
+}
+body {
+	background: #eaebec;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Card */
+.card-section {
+	padding: 24px;
+}
+
+.card-container {
+	padding-right: 0;
+	padding-left: 0;
+	padding: 16px;
+}
+
+.card {
+	width: 100%;
+	overflow: hidden;
+	transition: all .15s linear;
+	cursor: pointer;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.card:hover {
+	transform: scale(1.02);
+	box-shadow: 0 0 40px opacity(#000, .85);
+	background-color: #ffffff;
+	color: #0a0a0a;
+}
+
+.card:focus {
+	color: #0a0a0a;
+}
+
+.card-img-top {
+	width: 100%;
+}
+
+.card-body {
+	height: auto;
+}
+
+@media (max-width: 576px) {
+	.card-container {
+		padding-right: 0;
+		padding-left: 0;
+		padding: 0;
+	}
+
+	.card {
+		margin-bottom: 16px;
+	}
+}
+
+#product-card {
+	transform-style: preserve-3d;
+	-webkit-transition: 100ms ease-out; 
+		-moz-transition: 100ms ease-out; 
+			-o-transition: 100ms ease-out; 
+			transition: 100ms ease-out;
+}
+
+#product-card:hover {
+	box-shadow: 0px 13px 21px -5px rgba(0, 0, 0, 0.3);
+	-webkit-transition: 100ms ease-out; 
+		-moz-transition: 100ms ease-out; 
+			-o-transition: 100ms ease-out; 
+			transition: 100ms ease-out; 
+}
+.stats-container {
+	background: #fff;	
+	position: absolute;
+	top: 386px;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	padding: 27px 35px 35px;	
+	-webkit-transition: all 200ms ease-out; 
+		-moz-transition: all 200ms ease-out; 
+			-o-transition: all 200ms ease-out; 
+			transition: all 200ms ease-out;
+}
+
+#product-card:hover .stats-container {
+	top: 272px;
+	-webkit-transition: all 200ms ease-out; 
+		-moz-transition: all 200ms ease-out; 
+			-o-transition: all 200ms ease-out; 
+			transition: all 200ms ease-out; 
+}
+
+.image-overlay {
+	position: absolute;
+	top: 0;
+	left: 0; 
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	opacity: 0;	
+}
+
+#product-card:hover .image-overlay {
+	opacity: 0.7;	
+	-webkit-transition: all 200ms ease-out; 
+		-moz-transition: all 200ms ease-out; 
+			-o-transition: all 200ms ease-out; 
+			transition: all 200ms ease-out; 
+}
+
+#view_details {	
+	position: absolute;
+	text-decoration: none;
+	top: 300px;
+	left: 50%;
+	margin-left: -85px;	
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 19px;
+	text-align: center;
+	font-weight: 700;
+	padding: 10px 0;
+	width: 172px;	
+	opacity: 0;
+	-webkit-transition: all 200ms ease-out; 
+		-moz-transition: all 200ms ease-out; 
+			-o-transition: all 200ms ease-out; 
+			transition: all 200ms ease-out; 
+}
+#view_details:hover {	
+	background: #fff;
+	text-decoration: none;
+	color: #dc3545;
+	cursor: pointer;
+
+}
+#product-card:hover #view_details {
+	opacity: 1;
+	width: 152px;
+	font-size: 15px;
+	margin-left: -75px;
+	top: 200px;
+	-webkit-transition: all 200ms ease-out; 
+		-moz-transition: all 200ms ease-out; 
+			-o-transition: all 200ms ease-out; 
+			transition: all 200ms ease-out; 		
+}
+
+.project-name {
+	font-size: 22px;
+	color: #393c45;	
+}
+
+.job-role {
+	font-size: 16px;
+	color: #b1b1b3;
+}
+
+.project-tech-title{
+	font-weight: bold;
+	color: #393c45;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+.project-technologies {
+	font-size: 14px;
+	color: #b1b1b3;
+}
+
+.profile-link-container img {
+	width: 50px;
+}
+
+.profile-link-container a {
+	text-decoration: none;
+}
