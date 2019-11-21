@@ -147,7 +147,11 @@ p {
     .col-12 {
         padding-right: 0 !important;
     }
-    
+
+    .introduction-text {
+        padding: 0 0 0 16px !important;
+    }
+
     .progress-container:after {
         font-size: 24px;
     }
