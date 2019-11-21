@@ -139,11 +139,7 @@ p {
 /* Breakpoints */
 
 /* Mobile screens and down */
-@media (max-width: 576px) { 
-    p {
-        text-align: justify;
-    }
-
+@media (max-width: 576px) {
     .progress-container:after {
         font-size: 24px;
     }
