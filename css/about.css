@@ -144,6 +144,10 @@ p {
 
 /* Mobile screens and down */
 @media (max-width: 576px) {
+    .col-12 {
+        padding-right: 0 !important;
+    }
+    
     .progress-container:after {
         font-size: 24px;
     }
