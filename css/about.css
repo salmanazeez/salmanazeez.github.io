@@ -8,6 +8,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.row {
+    margin-right: 0 !important;
+}
+
 .me-span {
     color: #be020b;
 }
