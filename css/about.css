@@ -82,6 +82,7 @@ p {
     margin: 0 auto;
     overflow: hidden;
     transform: rotate(-90deg) rotateX(180deg);
+    background-color: transparent;
 }
   
 .progress-radial circle {
@@ -97,6 +98,7 @@ p {
 
 .progress-container {
     position: relative;
+    background-color: transparent;
 }
 
 .progress-container:after {
@@ -163,6 +165,7 @@ p {
     .radial-container {
         padding-left: 0 !important;
         padding-right: 0 !important;
+        background-color: transparent;
     }
 }
 
