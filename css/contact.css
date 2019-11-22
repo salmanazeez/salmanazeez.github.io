@@ -9,6 +9,10 @@ body {
     margin-right: 0 !important;
 }
 
+.heading {
+    color: #000000;
+}
+
 .me-span {
     color: #be020b;
 }
@@ -73,6 +77,15 @@ body {
 
 /* Mobile screens and down */
 @media (max-width: 576px) {
+    .card {
+        background-color: transparent !important;
+        border-bottom: 1px #be020b solid;
+        border-top: 1px #be020b solid;
+        border-right: none;
+        border-left: none;
+        border-radius: 0;
+    }
+
     .col-md-5 {
         min-width: 0;
     }
