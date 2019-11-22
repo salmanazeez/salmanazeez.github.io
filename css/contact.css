@@ -55,6 +55,10 @@ body {
     min-width: 400px;
 }
 
+.additional-links a{
+    color: #be020b;
+}
+
 .weblink-title {
 	color: #be020b;
 }
