@@ -1,10 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .row {
     margin-right: 0 !important;
+}
+
+.me-span {
+    color: #be020b;
 }
 
 .contact-page-container {
@@ -14,18 +20,43 @@ body {
     padding: 0;
 }
 
+.card {
+    background-color: transparent !important;
+    border: 1px #be020b solid;
+}
+
+.card-subtitle {
+    font-weight: 300;
+    text-align: justify;
+}
+
+.form-control {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #be020b;
+}
+
+.btn-danger {
+    background-color: #be020b !important;
+    border-color: #be020b !important;
+}
+
 @media screen and (min-width: 600px) {
     .card-container {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 50%);
+        transform: translate(-50%, -50%);
     }
 }
 
 .col-md-5 {
     max-width: 500px !important;
     min-width: 400px;
+}
+
+.weblink-title {
+	color: #be020b;
 }
 
 .weblinks-container {
@@ -37,7 +68,7 @@ body {
 }
 
 .weblink-logo-img {
-    width: 50px;
+    width: 40px;
 }
 
 /* Mobile screens and down */
