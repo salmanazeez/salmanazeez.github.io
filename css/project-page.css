@@ -8,3 +8,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.live-link {
+    color: #be020b;
+    text-decoration: none !important;
+}
+
+.live-link:hover {
+    color: #a8020b;
+}
