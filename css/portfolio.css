@@ -3,10 +3,11 @@
 * { 
     margin: 0px; 
 	padding: 0px; 
-	/* background-color: #0a0a0a; */
+	background-color: #000000;
+    color: #ffffff;
 }
 body {
-	background: #eaebec;
+	
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,6 +29,7 @@ body {
 	cursor: pointer;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
+	border: 1px #be020b solid;
 }
 
 .card:hover {
@@ -86,6 +88,7 @@ body {
 			-o-transition: 100ms ease-out; 
 			transition: 100ms ease-out; 
 }
+
 .stats-container {
 	background: #fff;	
 	position: absolute;
@@ -152,6 +155,7 @@ body {
 	cursor: pointer;
 
 }
+
 #product-card:hover #view_details {
 	opacity: 1;
 	width: 152px;
@@ -166,7 +170,7 @@ body {
 
 .project-name {
 	font-size: 22px;
-	color: #393c45;	
+	color: #be020b;	
 }
 
 .job-role {
@@ -174,9 +178,9 @@ body {
 	color: #b1b1b3;
 }
 
-.project-tech-title{
+.project-tech-title {
 	font-weight: bold;
-	color: #393c45;
+	color: #be020b;
 	font-size: 16px;
 	margin-bottom: 0;
 }
