@@ -11,6 +11,18 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.sub-heading {
+    font-weight: 300;
+}
+
+.secondary-text {
+    color: #616161;
+}
+
+.dev-span {
+    color: #be020b;
+}
+
 .live-link {
     color: #be020b;
     text-decoration: none !important;
