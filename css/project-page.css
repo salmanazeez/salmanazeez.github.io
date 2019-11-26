@@ -11,6 +11,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .sub-heading {
     font-weight: 300;
 }
