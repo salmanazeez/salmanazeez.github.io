@@ -16,6 +16,11 @@ body {
     margin-left: 0;
 }
 
+.col-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .sub-heading {
     font-weight: 300;
 }
