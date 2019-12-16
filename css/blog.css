@@ -16,6 +16,10 @@ body {
     column-count: 2;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .card {
 	width: 100%;
 	overflow: hidden;

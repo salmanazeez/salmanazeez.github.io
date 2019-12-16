@@ -5,29 +5,61 @@
     <link rel="shortcut icon" href="../img/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/blog.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
 </head>
 <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="works.html">Works</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="maintenance.html">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog cards -->
     <section class="blog-container p-3 p-md-5">
         <div class="row">
             <div class="col-12 col-md-4 blog-title-container text-center">
-                <h3 class="blog-title">Blogs</h3>
+                <h1 class="blog-title">Blogs</h1>
             </div>
             <div class="col-12 col-md-8">
                 <div class="card-columns blog-columns">
-                    <div class="card">
-                        <img src="https://i.ytimg.com/vi/_GiXOVMii48/maxresdefault.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title that wraps to a new line</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="maintenance.html">
+                        <div class="card">
+                            <img src="img/blogs/custom-nav.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Customize React theme</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.ytimg.com/vi/_GiXOVMii48/maxresdefault.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
+                    </a>
+                    <!-- <a href="maintenance.html">
+                        <div class="card">
+                            <img src="https://i.ytimg.com/vi/_GiXOVMii48/maxresdefault.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a> -->
                 </div>
             </div>
         </div>
