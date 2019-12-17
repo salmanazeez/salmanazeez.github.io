@@ -41,3 +41,11 @@ body {
 .live-link:hover {
     color: #a8020b;
 }
+
+.sreenshot-container {
+    display: inline-grid;
+}
+
+.img-caption {
+    color: #be020b;
+}
