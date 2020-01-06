@@ -12,22 +12,6 @@ body {
     background-attachment: fixed;
 }
 
-@media (max-width: 576px) { 
-    body {
-        background-image: url("../img/mobile-background.jpg");
-    }
-}
-
-@media (min-width: 768px) {
-    .row {
-        margin-right: 0px !important;
-    }
-
-    .col-md-12 {
-        padding: 0;
-    }
-}
-
 .btn-danger {
     background-color: #be020b !important;
     border-color:#be020b !important;
@@ -93,4 +77,24 @@ button
 {
     color: #fff;
     cursor: pointer;
+}
+
+/* Breakpoints */
+
+/* Mobile screens and down */
+@media (max-width: 576px) { 
+    body {
+        background-image: url("../img/mobile-background.jpg");
+    }
+}
+
+/* Tablet screens and up */
+@media (min-width: 768px) {
+    .row {
+        margin-right: 0px !important;
+    }
+
+    .col-md-12 {
+        padding: 0;
+    }
 }
