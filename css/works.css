@@ -203,10 +203,6 @@ body {
 	color: #be020b;
 }
 
-.secondary-text {
-    color: #616161;
-}
-
-strong {
+.secondary-text strong {
     color: #616161;
 }
